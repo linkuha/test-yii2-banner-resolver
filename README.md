@@ -6,18 +6,15 @@ As banner you can use any string, url, html code.
 
 To install you need run comand (without `--no-dev` for testing capability support):
 ```
-composer install
+composer require linkuha/yii2-banner-resolver
 ```
 
 **Tested on:** <br/>
 PHP 7.2.0 <br/>
+Yii 2.0.14
 Composer version 1.7.1 <br/>
 PHPUnit 7.3.5
- 
-To run a tests:
-```
-vendor/bin/phpunit
-```
+
 
 **Rules types:**
 
@@ -80,4 +77,9 @@ So finally, use:
 $code = Yii::$app->geoip->lookupLocation('37.194.xxx.xxx')->countryCode;
 $bannersComp = Yii::$app->banners;
 $bannerUrl = $bannersComp->resolveBanner($query, $code)->getUrl(),
+```
+
+**To run a tests:**
+```
+vendor/bin/phpunit
 ```
