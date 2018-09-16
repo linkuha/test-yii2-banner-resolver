@@ -11,7 +11,7 @@ composer require linkuha/yii2-banner-resolver
 
 **Tested on:** <br/>
 PHP 7.2.0 <br/>
-Yii 2.0.14
+Yii 2.0.14  <br/>
 Composer version 1.7.1 <br/>
 PHPUnit 7.3.5
 
